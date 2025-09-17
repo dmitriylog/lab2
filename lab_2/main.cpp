@@ -10,7 +10,7 @@ void creating_file(int i){
 
     if (!file.is_open()){
         cerr << "Ошибка! Не удалось создать файл " << fnames << endl;
-        exit;
+        //exit;
     }
 
     for (int j = 0; j < 10; j++) {
@@ -27,6 +27,7 @@ void creating_file(int i){
 
 int main()
 {
-
-    return 0;
+        for (int i = 1; i <= 3; i++) {
+        creating_file(i);
+   }
 }
