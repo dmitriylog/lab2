@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1758112734 source:c:\gitrepo\lab2\lab_2\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
