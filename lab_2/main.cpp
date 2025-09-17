@@ -4,7 +4,9 @@
 
 using namespace std;
 
+void creating_file(int i){
 
+}
 
 int main()
 {
