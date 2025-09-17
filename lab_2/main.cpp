@@ -27,6 +27,8 @@ void creating_file(int i){
 
 int main()
 {
+        system("chcp 1251");
+        system("cls");
         for (int i = 1; i <= 3; i++) {
         creating_file(i);
    }
